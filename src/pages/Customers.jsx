@@ -29,8 +29,8 @@ const Customers = () => {
         allowPaging
         pageSettings={{ pageCount: 5 }}
         selectionSettings={selectionsettings}
-        toolbar={["Delete"]}
-        editSettings={{ allowEditing: true, allowDeleting: true }}
+        toolbar={toolbarOptions}
+        editSettings={editing}
         allowSorting
       >
         <ColumnsDirective>
